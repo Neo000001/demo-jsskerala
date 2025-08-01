@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSS Kerala - Membership Campaign</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JSS Kerala</h1>
+        <p>Membership & Circular Management</p>
+    </header>
+
+    <section class="about">
+        <h2>About JSS Kerala</h2>
+        <p>JSS Kerala is dedicated to promoting social justice and equality. Join our membership campaign to be a part of our mission.</p>
+    </section>
+
+    <section class="campaign">
+        <h2>Membership Campaign</h2>
+        <p>Become a member and get your unique membership ID. Stay updated with circulars and news directly via email.</p>
+    </section>
+
+    <section class="form-section">
+        <h2>Join Now</h2>
+        <form action="membership.php" method="POST" enctype="multipart/form-data">
+            <label>Name:</label>
+            <input type="text" name="name" required>
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <label>Photo:</label>
+            <input type="file" name="photo" accept="image/*" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright © 2025 JSS Kerala | Managed by 
+            <a href="https://eebii.com" target="_blank">Eebii IT Solutions</a>
+        </p>
+    </footer>
+</body>
+</html>
